@@ -62,34 +62,48 @@ body
         color: #fff
         display: flex
         justify-content: space-around
-        @media screen and (max-width: 735px)
+        @media screen and (max-width: 768px)
             display: block
         img 
-            width: 30%
+            width: 90%
             border-radius: .3rem
-            @media screen and (max-width: 735px)
+            margin: 0 5%
+            // @media screen and (max-width: 768px)
                 width: 100%
         .jmb-text
-            width: 60%
-            @media screen and (max-width: 735px)
-                width: 100%
+            width: 90%
+            margin: 0 5%
+            // @media screen and (max-width: 768px)
+            //     width: 100%
         hr 
             border-top: 1px solid #fff
-    .portfolio
-        margin-top: 11.1vw
-        .row
-            margin-bottom: 2vw
-            &:last-child
-                margin-bottom: 0
-            .col-4
-                margin-bottom: 2vw
+    // .portfolio
+    //     margin-top: 11.1vw
+    //     .row
+    //         margin-bottom: 2vw
+    //         @media screen and ( max-width: 800px )
+    //             display: block
+    //         &:last-child
+    //             margin-bottom: 0
+    //         .col
+    //             margin-bottom: 2vw
+    //             .card
+    //                 width: auto
+    //                 @media screen and ( max-width: 800px )
+    //                     width: 84vw
+    //                     margin: 0 auto      
+
+    .card
+        @media screen and ( min-width: 768px )
+            flex: 2 0 0%
+                    
     footer 
         width: 100%
         background-color: #343a40
         ul 
-            width: 21vw
+            width: 45vw
             margin: 0 auto
-            padding: 3vw
+            padding: 5vw 0
             display: flex
             justify-content: space-between
             list-style: none

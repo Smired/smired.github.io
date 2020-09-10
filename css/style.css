@@ -87,51 +87,36 @@ body .jumbotron {
   display: flex;
   justify-content: space-around;
 }
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 768px) {
   body .jumbotron {
     display: block;
   }
 }
 body .jumbotron img {
-  width: 30%;
+  width: 90%;
   border-radius: 0.3rem;
-}
-@media screen and (max-width: 735px) {
-  body .jumbotron img {
-    width: 100%;
-  }
+  margin: 0 5%;
 }
 body .jumbotron .jmb-text {
-  width: 60%;
-}
-@media screen and (max-width: 735px) {
-  body .jumbotron .jmb-text {
-    width: 100%;
-  }
+  width: 90%;
+  margin: 0 5%;
 }
 body .jumbotron hr {
   border-top: 1px solid #fff;
 }
-body .portfolio {
-  margin-top: 11.1vw;
-}
-body .portfolio .row {
-  margin-bottom: 2vw;
-}
-body .portfolio .row:last-child {
-  margin-bottom: 0;
-}
-body .portfolio .row .col-4 {
-  margin-bottom: 2vw;
+@media screen and (min-width: 768px) {
+  body .card {
+    flex: 2 0 0%;
+  }
 }
 body footer {
   width: 100%;
   background-color: #343a40;
 }
 body footer ul {
-  width: 21vw;
+  width: 45vw;
   margin: 0 auto;
-  padding: 3vw;
+  padding: 5vw 0;
   display: flex;
   justify-content: space-between;
   list-style: none;
