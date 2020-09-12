@@ -9,16 +9,20 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../img/bg-02.jpg");
+  background-image: url("../img/bg-03.jpg");
   background-size: cover;
   background-repeat: repeat;
-  background-color: #343a40;
 }
 body nav {
-  box-shadow: 0 -5px 15px 5px #000 !important;
+  box-shadow: 0 -5px 15px 5px #ffffff8e !important;
+  background-image: url("../img/bg-03.jpg");
+  background-size: cover;
+  background-color: 6002c;
 }
 body .nav-link {
   text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
 }
 body .img-logo {
   width: 40px;
@@ -30,16 +34,10 @@ body .bg-name {
   margin: 10vw auto;
   box-shadow: 0 0 150px 5px #e23e4e;
 }
-@media screen and (max-width: 995px) {
+@media screen and (max-width: 768px) {
   body .bg-name {
-    width: 60vw;
+    width: 80vw;
     height: 30vw;
-  }
-}
-@media screen and (max-width: 690px) {
-  body .bg-name {
-    width: 100vw;
-    height: 70vw;
   }
 }
 body .bg-name h1 {
@@ -48,29 +46,10 @@ body .bg-name h1 {
   font-family: beon;
   color: #fff;
   margin: 0;
-  padding: 2.8vw;
-  padding-bottom: 0;
-}
-@media screen and (max-width: 650px) {
-  body .bg-name h1 {
-    font-size: 75px;
-  }
-}
-@media screen and (max-width: 690px) {
-  body .bg-name h1 {
-    padding-top: 25vw;
-    padding-bottom: 0;
-  }
-}
-@media screen and (max-width: 500px) {
-  body .bg-name h1 {
-    padding-top: 20vw;
-  }
-}
-@media screen and (max-width: 375px) {
-  body .bg-name h1 {
-    padding-top: 15vw;
-  }
+  padding: 0;
+  position: absolute;
+  left: 15%;
+  top: 15%;
 }
 body .bg-name h2 {
   text-align: center;
@@ -78,19 +57,51 @@ body .bg-name h2 {
   font-family: multicolor;
   color: #9e9e9e;
   margin: 0;
-  padding: 2.8vw;
-  padding-top: 0;
+  padding: 0;
+  position: absolute;
+  left: 27%;
+  top: 55%;
+}
+body .col {
+  margin: 10% auto;
+  padding: 0;
+}
+body .col .my-card {
+  opacity: 0.8;
+  color: #fff;
+  margin: 10% 0 10%;
+  background-color: #06002c !important;
+  box-shadow: 0 0 150px 5px #e23e4e;
+}
+body .col .my-card h1 {
+  text-align: center;
+  font-family: beon;
+  font-size: 8vw;
+  padding: 20% 0 0;
+  margin: 0;
+}
+body .col .my-card h2 {
+  text-align: center;
+  padding: 0 5% 20%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 body .jumbotron {
   background-color: #343a40;
   color: #fff;
   display: flex;
   justify-content: space-around;
+  background-image: url("../img/bg-03.jpg");
+  background-size: cover;
+  box-shadow: 0 0 15px 5px #ffffff80;
 }
 @media screen and (max-width: 768px) {
   body .jumbotron {
     display: block;
   }
+}
+body .jumbotron .col {
+  margin-top: 1vw;
 }
 body .jumbotron img {
   width: 90%;
@@ -100,8 +111,20 @@ body .jumbotron img {
 body .jumbotron .jmb-text {
   width: 90%;
   margin: 0 5%;
+  background-color: #06002c;
+  padding: 2vw;
+  border-radius: 1rem;
+  border-bottom-left-radius: 0;
+  display: inline-block;
+  box-shadow: 0 0 7px 5px #ebebeb7e;
+  opacity: 0.9;
 }
-body .jumbotron hr {
+@media screen and (max-width: 768px) {
+  body .jumbotron .jmb-text {
+    margin-top: 1vw;
+  }
+}
+body .jumbotron .jmb-text hr {
   border-top: 1px solid #fff;
 }
 @media screen and (min-width: 768px) {
@@ -111,7 +134,8 @@ body .jumbotron hr {
 }
 body footer {
   width: 100%;
-  background-color: #343a40;
+  background-color: #06002c;
+  box-shadow: 0 0 15px 5px #000;
 }
 body footer ul {
   width: 45vw;
