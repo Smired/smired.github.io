@@ -76,9 +76,10 @@ body .col .my-card {
 body .col .my-card h1 {
   text-align: center;
   font-family: beon;
-  font-size: 8vw;
+  font-size: 550%;
   padding: 20% 0 0;
-  margin: 0;
+  margin: 0 auto;
+  width: 80%;
 }
 body .col .my-card h2 {
   text-align: center;
@@ -116,7 +117,6 @@ body .jumbotron .jmb-text {
   border-radius: 1rem;
   border-bottom-left-radius: 0;
   display: inline-block;
-  box-shadow: 0 0 7px 5px #ebebeb7e;
   opacity: 0.9;
 }
 @media screen and (max-width: 768px) {
@@ -126,6 +126,11 @@ body .jumbotron .jmb-text {
 }
 body .jumbotron .jmb-text hr {
   border-top: 1px solid #fff;
+}
+body .card {
+  background-color: #06002c;
+  color: #fff;
+  margin: 0 1vw;
 }
 @media screen and (min-width: 768px) {
   body .card {
