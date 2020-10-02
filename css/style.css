@@ -19,12 +19,12 @@ body nav {
   background-size: cover;
   background-color: 6002c;
 }
-body .nav-link {
+body nav .nav-link {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
 }
-body .img-logo {
+body nav .img-logo {
   width: 40px;
 }
 body .bg-name {
@@ -87,12 +87,17 @@ body .col .my-card h2 {
   text-transform: uppercase;
   letter-spacing: 5px;
 }
-body .row-img-me {
-  max-width: 100%;
+body .row-col-me {
+  margin: 0 auto;
+}
+body .row-col-me .row-img-me {
+  width: 90%;
   border-radius: 5px;
 }
 body .row-text-me {
   color: #fff;
+  width: 90%;
+  margin: 0 auto;
 }
 body .card {
   background-color: #06002c;
