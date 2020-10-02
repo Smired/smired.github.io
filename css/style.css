@@ -63,7 +63,7 @@ body .bg-name h2 {
   top: 55%;
 }
 body .col {
-  margin: 10% auto;
+  margin: 5% auto;
   padding: 0;
 }
 body .col .my-card {
@@ -87,45 +87,12 @@ body .col .my-card h2 {
   text-transform: uppercase;
   letter-spacing: 5px;
 }
-body .jumbotron {
-  background-color: #343a40;
+body .row-img-me {
+  max-width: 100%;
+  border-radius: 5px;
+}
+body .row-text-me {
   color: #fff;
-  display: flex;
-  justify-content: space-around;
-  background-image: url("../img/bg-03.jpg");
-  background-size: cover;
-  box-shadow: 0 0 15px 5px #ffffff80;
-}
-@media screen and (max-width: 768px) {
-  body .jumbotron {
-    display: block;
-  }
-}
-body .jumbotron .col {
-  margin-top: 1vw;
-}
-body .jumbotron img {
-  width: 90%;
-  border-radius: 0.3rem;
-  margin: 0 5%;
-}
-body .jumbotron .jmb-text {
-  width: 90%;
-  margin: 0 5%;
-  background-color: #06002c;
-  padding: 2vw;
-  border-radius: 1rem;
-  border-bottom-left-radius: 0;
-  display: inline-block;
-  opacity: 0.9;
-}
-@media screen and (max-width: 768px) {
-  body .jumbotron .jmb-text {
-    margin-top: 1vw;
-  }
-}
-body .jumbotron .jmb-text hr {
-  border-top: 1px solid #fff;
 }
 body .card {
   background-color: #06002c;
@@ -142,6 +109,7 @@ body footer {
   width: 100%;
   background-color: #06002c;
   box-shadow: 0 0 15px 5px #000;
+  margin-top: 5vw;
 }
 body footer ul {
   width: 45vw;
