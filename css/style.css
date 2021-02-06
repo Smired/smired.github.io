@@ -104,12 +104,15 @@ body .card {
   background-color: #06002c;
   color: #fff;
   margin: 0 1vw;
-  box-shadow: 0 0 10px 1px #eee;
+  box-shadow: 0 0 5px 1px #eee;
 }
 @media screen and (min-width: 768px) {
   body .card {
     flex: 2 0 0%;
   }
+}
+body .card a {
+  color: #fff;
 }
 body footer {
   width: 100%;
