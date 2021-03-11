@@ -6,6 +6,10 @@
   font-family: "multicolor";
   src: url(../fonts/multicolor.otf);
 }
+@font-face {
+  font-family: "courier new";
+  src: url(../fonts/Courier-New.ttf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -99,6 +103,7 @@ body .row-text-me {
   color: #fff;
   width: 90%;
   margin: 0 auto;
+  font-family: "courier new";
 }
 body .card {
   background-color: #06002c;
@@ -113,6 +118,9 @@ body .card {
 }
 body .card a {
   color: #fff;
+}
+body .card-text {
+  font-family: "courier new";
 }
 body footer {
   width: 100%;
