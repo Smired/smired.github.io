@@ -32,6 +32,14 @@ body nav .nav-link {
 body nav .img-logo {
   width: 40px;
 }
+body nav .dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body nav .dropdown-item .img-lang {
+  width: 25px;
+}
 body .bg-name {
   width: 40vw;
   height: 20vw;
