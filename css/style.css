@@ -102,17 +102,27 @@ body .col .my-card h2 {
   letter-spacing: 5px;
 }
 body .row-col-me {
-  margin: 0 auto;
+  margin: 0;
 }
 body .row-col-me .row-img-me {
-  width: 90%;
+  width: 40vw;
   border-radius: 5px;
+}
+@media screen and (min-width: 300px) {
+  body .row-col-me .row-img-me {
+    margin-left: 5vw;
+  }
 }
 body .row-text-me {
   color: #fff;
-  width: 90%;
-  margin: 0 auto;
+  width: 40vw;
+  margin: 0;
   font-family: "courier new";
+}
+@media screen and (max-width: 300px) {
+  body .row-text-me {
+    margin-left: 5vw;
+  }
 }
 body .card {
   background-color: #06002c;

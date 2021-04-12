@@ -63,7 +63,7 @@ body
             position: absolute
             left: 27%
             top: 55%
-
+        
     .col
         margin: 5% auto
         padding: 0
@@ -87,15 +87,19 @@ body
                 letter-spacing: 5px
 
     .row-col-me
-        margin: 0 auto
+        margin: 0
         .row-img-me
-            width: 90%
+            width: 40vw
             border-radius: 5px
+            @media screen and (min-width: 300px)
+                margin-left: 5vw
     .row-text-me
         color: #fff
-        width: 90%
-        margin: 0 auto
+        width: 40vw
+        margin: 0
         font-family:'courier new'
+        @media screen and (max-width: 300px)
+            margin-left: 5vw
     .card
         background-color: #06002c
         color: #fff
