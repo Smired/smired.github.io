@@ -103,26 +103,19 @@ body .col .my-card h2 {
 }
 body .row-col-me {
   margin: 0;
+  width: auto;
 }
 body .row-col-me .row-img-me {
-  width: 40vw;
+  width: 100%;
   border-radius: 5px;
-}
-@media screen and (min-width: 300px) {
-  body .row-col-me .row-img-me {
-    margin-left: 5vw;
-  }
+  padding: 10px;
 }
 body .row-text-me {
   color: #fff;
-  width: 40vw;
+  width: 100%;
   margin: 0;
   font-family: "courier new";
-}
-@media screen and (max-width: 300px) {
-  body .row-text-me {
-    margin-left: 5vw;
-  }
+  padding: 10px;
 }
 body .card {
   background-color: #06002c;
